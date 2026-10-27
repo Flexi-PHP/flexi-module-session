@@ -20,7 +20,8 @@
   "require": {
     "php": ">=7.4",
     "flexi/contracts": "^5.2.1",
-    "cubadevops/flexi-module-logging": "^1.0"
+    "cubadevops/flexi-module-logging": "^1.0",
+    "psr/log": "^1.1"
   },
   "autoload": {
     "psr-4": {

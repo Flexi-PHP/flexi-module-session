@@ -1,9 +1,9 @@
 {
   "services": [
     {
-      "name": "CubaDevOps\\Flexi\\Contracts\\Interfaces\\SessionStorageInterface",
+      "name": "Flexi\\Contracts\\Interfaces\\SessionStorageInterface",
       "class": {
-        "name": "CubaDevOps\\Flexi\\Modules\\Session\\Infrastructure\\Session\\NativeSessionStorage",
+        "name": "Flexi\\Modules\\Session\\Infrastructure\\Session\\NativeSessionStorage",
         "arguments": [
           "@logger",
           {
@@ -24,7 +24,7 @@
     },
     {
       "name": "session",
-      "alias": "CubaDevOps\\Flexi\\Contracts\\Interfaces\\SessionStorageInterface"
+      "alias": "Flexi\\Contracts\\Interfaces\\SessionStorageInterface"
     }
   ]
 }

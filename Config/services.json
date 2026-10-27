@@ -3,7 +3,7 @@
     {
       "name": "Flexi\\Contracts\\Interfaces\\SessionStorageInterface",
       "class": {
-        "name": "CubaDevOps\\Flexi\\Modules\\Session\\Infrastructure\\Session\\NativeSessionStorage",
+        "name": "Flexi\\Modules\\Session\\Infrastructure\\Session\\NativeSessionStorage",
         "arguments": [
           "@logger",
           {

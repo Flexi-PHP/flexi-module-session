@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\Session\Infrastructure\Session;
+namespace Flexi\Modules\Session\Infrastructure\Session;
 
 use Flexi\Contracts\Interfaces\SessionStorageInterface;
 use Psr\Log\LoggerInterface;

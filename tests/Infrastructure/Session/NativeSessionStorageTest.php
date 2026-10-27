@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\Session\Tests\Infrastructure\Session;
+namespace Flexi\Modules\Session\Tests\Infrastructure\Session;
 
-use CubaDevOps\Flexi\Modules\Session\Infrastructure\Session\NativeSessionStorage;
+use Flexi\Modules\Session\Infrastructure\Session\NativeSessionStorage;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 

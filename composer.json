@@ -1,7 +1,7 @@
 {
   "name": "cubadevops/flexi-module-session",
   "description": "Session management module for Flexi Framework",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "flexi-module",
   "license": "MIT",
   "keywords": [
@@ -20,12 +20,12 @@
   "require": {
     "php": ">=7.4",
     "flexi/contracts": "^5.2.1",
-    "cubadevops/flexi-module-logging": "^1.0",
+    "cubadevops/flexi-module-logging": "^2.0",
     "psr/log": "^1.1"
   },
   "autoload": {
     "psr-4": {
-      "CubaDevOps\\Flexi\\Modules\\Session\\": ""
+      "Flexi\\Modules\\Session\\": ""
     }
   },
   "extra": {
@@ -47,7 +47,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "CubaDevOps\\Flexi\\Modules\\Session\\Tests\\": "tests/"
+      "Flexi\\Modules\\Session\\Tests\\": "tests/"
     }
   },
   "require-dev": {

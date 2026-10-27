@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CubaDevOps\Flexi\Modules\Session\Test\Infrastructure\Session;
+namespace CubaDevOps\Flexi\Modules\Session\Tests\Infrastructure\Session;
 
 use CubaDevOps\Flexi\Modules\Session\Infrastructure\Session\NativeSessionStorage;
 use PHPUnit\Framework\TestCase;

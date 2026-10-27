@@ -19,7 +19,8 @@
   ],
   "require": {
     "php": ">=7.4",
-    "cubadevops/flexi-contracts": "@dev"
+    "flexi/contracts": "^5.2.1",
+    "cubadevops/flexi-module-logging": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -36,7 +37,19 @@
       "provides": [
         "session",
         "session-storage"
-      ]
+      ],
+      "schema-version": 1,
+      "compatibility": {
+        "core": "^3.2"
+      }
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CubaDevOps\\Flexi\\Modules\\Session\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
   }
 }
